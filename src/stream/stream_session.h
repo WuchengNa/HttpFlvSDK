@@ -4,6 +4,8 @@
 //流会话类，负责启停和打包
 class StreamSession
 {
+
+public:
     // Open a stream
     void openStream();
 
