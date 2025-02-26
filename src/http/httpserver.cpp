@@ -31,4 +31,3 @@ void HttpServer::Uninit()
 {
     std::cout << "HttpServer::Uninit" << std::endl;
 }
-```

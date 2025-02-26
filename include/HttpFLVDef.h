@@ -1,6 +1,14 @@
 #ifndef __HTTPFLVDEF_H__
 #define __HTTPFLVDEF_H__
 
+#include <memory>
+
+class FLVPacket;
+class HttpClientAgent;
+class HttpMsg;
+using SharedFLVPacket = std::shared_ptr<FLVPacket>;
+using SharedHttpClientAgent = std::shared_ptr<HttpClientAgent>;
+
 //audio tag type
 enum AudioTagType
 {
