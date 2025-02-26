@@ -23,10 +23,38 @@ enum FlvTagType
     FLV_TAG_TYPE_SCRIPT = 18,
 };
 
+struct HttpFlvSvrInitParam
+{
+    int port;
+    int max_client_num;
+    int max_stream_num;
+};  
+
+struct AVInputParam
+{
+    int input_type;
+    int input_id;
+    int input_index;
+};
+
+struct AVOutputParam
+{
+    int output_type;
+    int output_id;
+    int output_index;
+};
+
+struct AVFrame
+{
+    int frame_type;
+    int frame_index;
+    int frame_size;
+    int frame_data;
+};
 
 
 
 
 
 
-#endif // __HTTPFLVDEF_H__
+#endif // __HTTPFLVDEF_H__ 

@@ -1,0 +1,4 @@
+#cmake temp dir
+/build/
+/bin/
+/cmakeFiles/
